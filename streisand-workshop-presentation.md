@@ -39,6 +39,12 @@ lukas
 
 ---
 
+# $ whoareyou
+
+-> Introduce yourself, please!
+
+---
+
 # What is Streisand
 
 -> *https://github.com/jlund/streisand*
@@ -72,12 +78,21 @@ on any Ubuntu 14.04 server
 
 # What is Ansible
 
+* orchestration tool
+* agent-less (remote side must have ssh and python)
+* playbooks = recipes how to cook a server = description of a system. In yaml.
+* idempotent
 
 ---
 
-* Digitalocean has quite a few promos - use FLOSS to get $10 and support [FLOSS weekly](https://twit.tv/shows/floss-weekly), great podcast about free and libre open source software
-* Linode is a bit less strict about verifying your credentials
-* [Chunkhost](https://chunkhost.com/), very cheap, good connectivity to China (LAX), accept BTC (discount!) - chef's recommendation
+# Where to get a server
+
+* Digital Ocean
+* Linode
+* Chunkhost
+* Amazon EC2
+* Rackspace
+* ...your recommendation?
 
 ---
 
@@ -116,6 +131,21 @@ on any Ubuntu 14.04 server
 * Accepts bitcoin! (don't have a credit card? :-)
 
 ---
+
+# -> Let's get a server, everyone!
+
+---
+
+# Login to our ssh gateway
+
+ssh (/mosh) workshop$i@la.aiya.cz; password streisand.workshop$i.pw
+
+# create ssh key: ssh-keygen
+
+
+---
+
+# Deploy Streisand!
 
 -> All instructions on https://github.com/jlund/streisand#prerequisites
 
